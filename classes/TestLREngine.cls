@@ -54,6 +54,10 @@ private class TestLREngine {
         /*
          added to support multi-currency detection
          */
+   
+      public void badMethod(Integer param){
+         param = 7;
+      }
 
         private static String CURRENCYISOCODENAME = 'CurrencyIsoCode';
         //http://advancedapex.com/2013/07/07/optional-features/
